@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Team Member Styles */
+.team-member {
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+.team-member img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.team-member .bio {
+    overflow: hidden;
+}
+
+.team-member h2 {
+    margin-top: 0;
+}
+
+.team-member p {
+    margin: 0;
+}
+
+/* Positioning the footer at the bottom */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
